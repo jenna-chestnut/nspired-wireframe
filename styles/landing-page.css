@@ -2,6 +2,7 @@
     margin: 0 auto;
     padding: 25px;
     display: flex;
+    flex-direction: column;
 }
 
 .landing-page p {
@@ -13,10 +14,6 @@
 .landing-page button {
     margin: 10px;
     font-size: 18px;
-}
-
-.win-list {
-    width: 70%;
 }
 
 .win-list p {
@@ -44,6 +41,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 45px;
 }
 
 .item-and-options {
@@ -69,4 +67,16 @@
 .upvotes {
     margin: auto 5px;
     width: 55px;
+}
+
+@media all and (min-width:600px) {
+    .landing-page {
+        flex-direction: row;
+    }
+    .win-list {
+        width: 70%;
+    }
+    .item-plus {
+        margin-bottom: auto;
+    }
 }
