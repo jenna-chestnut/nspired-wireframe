@@ -15,9 +15,13 @@
     font-size: 18px;
 }
 
+.win-list {
+    width: 70%;
+}
+
 .win-list p {
     text-align: right;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0 25px;
 }
 
@@ -35,7 +39,7 @@
 }
 
 .item-plus {
-    flex: 1.5;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;

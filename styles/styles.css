@@ -94,4 +94,7 @@ h2 {
     header {
         margin-top: 0;
     }
+    main {
+        padding: 3%;
+    }
 }
