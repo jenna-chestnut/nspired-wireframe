@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/create-goal.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <header class="h-group">
+      <h1 class="item">nSpired</h1>
+      <nav>
+        <a href="./log-in.html">Log In</a>
+        <a href="./sign-up.html">Sign Up</a>
+        <a href="./view-win-wall.html">Win Wall</a>
+        <a href="./dashboard.html">Dashboard</a>
+        <a href="/"><img src="../images/home+house+icon.png" /></a>
+      </nav>
+    </header>
+    <main>
+      <p class="inspiration">Rome wasn't built in a day.</p>
+        <form class="create-goal">
+          <fieldset>
+            <legend>Create A Goal</legend>
+            <label for="goal-name">What would you like to achieve?</label>
+            <input type="text" id="goal-name" />
+            <label for="time-frame"
+              >When would you like to achieve this goal?</label
+            >
+            <div class="timeframe-buttons">
+              <input type="radio" name="time-frame" value="1 day" id="1day" />
+              <label for="1day">1 day</label>
+              <input type="radio" name="time-frame" value="1 week" id="1wk" />
+              <label for="1wk">1 week</label>
+              <input type="radio" name="time-frame" value="1 month" id="1mo" />
+              <label for="1mo">1 month</label>
+              <input type="radio" name="time-frame" value="3 months" id="3mo" />
+              <label for="3mo">3 months</label>
+            </div>
+            <label for="goal-why">Why would you like to (goal)?</label>
+            <textarea id="goal-why"></textarea>
+            <button type="submit">Create Goal</button>
+          </fieldset>
+        </form>
+    </main>
+    <footer>
+      Jenna Chestnut /
+      <a href="https://linktr.ee/jenna.chestnut">@Jennabot5000</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    margin: 20px 10px;
+}
+
+.win-item {
+    display: flex;
+    margin: 15px auto;
+    border: 2px #d6d6d6 solid;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.win-item span {
+    vertical-align: middle;
+    margin: auto 10px;
+}
+
+.item-and-options {
+    margin: auto;
+    display: flex;
+    width: 90%;
+}
+
+.item-and-options button {
+    height: 65px;
+    font-size: 45px;
+    border: none;
+    background-color: transparent;
+    margin: auto;
+}
+
+.item-and-options button:hover {
+    background-color: rgb(255, 208, 0);
+}
+
+.upvotes {
+    margin: auto 5px;
+    width: 55px;
+}
+
+@media all and (min-width: 600px) {
+    .item-and-options {
+        width: 60%;
+    }
+    .upvotes {
+        margin: auto 10px;
+    }
+}

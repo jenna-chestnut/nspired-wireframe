@@ -1,0 +1,41 @@
+body {
+    background-image: url('../images/confettigif.gif'); 
+}
+
+.share-win {
+    background-color: #ffffffc0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.share-win label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.share-win textarea {
+    width: 75%;
+    height: 100px;
+}
+
+.share-win button {
+    font-size: 18px;
+    display: block;
+    margin: 25px auto;
+}
+
+.share-win h3 {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+@media all and (min-width: 600px) {
+    .share-win {
+        padding: 20px;
+    }
+    .share-win textarea {
+        width: 45%;
+    }
+}

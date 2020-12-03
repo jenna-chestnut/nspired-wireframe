@@ -1,0 +1,41 @@
+.advice-column {
+    width: 80%;
+    margin: auto;
+}
+
+.advice-column h3 {
+    font-size: 25px;
+}
+
+#clone-goal {
+    font-size: 25px;
+    border: 2px grey solid;
+    margin: auto 10px;
+}
+
+#clone-goal:hover {
+    background-color: yellow;
+}
+
+.win-item-pubwin {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+@media all and (min-width: 600px) {
+    .advice-column {
+        width: 50%;
+        margin: auto;
+    }
+    .win-item-pubwin {
+        display: flex;
+        margin: 15px auto;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .win-item-pubwin span {
+        vertical-align: middle;
+        margin: auto 10px;
+    }
+}

@@ -1,0 +1,97 @@
+h2 {
+    font-size: 30px;
+}
+
+.win-item {
+    display: flex;
+    margin: 15px auto;
+    border: 2px #d6d6d6 solid;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.win-item span {
+    vertical-align: middle;
+    margin: auto 10px;
+}
+
+.item-and-options {
+    margin: auto;
+    display: flex;
+    width: 90%;
+}
+
+.item-double .item-and-options {
+    width: 100%;
+}
+
+.item-and-options button {
+    height: 65px;
+    font-size: 45px;
+    border: none;
+    background-color: transparent;
+    margin: auto;
+}
+
+#delete-win:hover {
+    background-color: rgb(255, 127, 127);
+}
+
+#win-win:hover {
+    background-color: rgb(151, 255, 142);
+}
+
+.view-goal .win-item {
+    border: none;
+    padding: 2% 5%;
+}
+
+.view-goal h3 {
+    font-size: 25px;
+}
+
+.view-goal p {
+    font-size: 20px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-double {
+    flex: 2;
+}
+
+.item {
+    flex: 1;
+}
+
+.dash-h {
+    font-size: 40px;
+    letter-spacing: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.reminder p {
+    padding: 3%;
+}
+
+.reminder h4 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+@media all and (min-width: 600px) {
+    .dashboard {
+        flex-direction: row;
+    }
+    .item-double .item-and-options {
+        width: 90%;
+    }
+    .item-and-options {
+        width: 60%;
+    }
+    
+}
